@@ -84,3 +84,40 @@ header {
 .rezerwacja:hover {
     background-color: #a66d49;
 }
+.section-o-nas {
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.section-o-nas h2, .section-uslugi h2, .section-kontakt h2 {
+    width: 100%;
+    text-align: center;
+    color: #8c5a3c;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.opis-salonu {
+    flex: 1;
+    min-width: 280px;
+}
+
+.opis-salonu p {
+    margin-bottom: 15px;
+}
+
+.about-img {
+    flex: 1;
+    min-width: 280px;
+}
+
+.about-img img {
+    width: 100%;
+    border-radius: 6px;
+    border: 2px solid #8c5a3c;
+}
