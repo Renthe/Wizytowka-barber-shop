@@ -91,7 +91,6 @@ header {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-
 }
 
 .section-o-nas h2, .section-uslugi h2, .section-kontakt h2 {
@@ -120,4 +119,35 @@ header {
     width: 100%;
     border-radius: 6px;
     border: 2px solid #8c5a3c;
+}
+
+.section-uslugi {
+    background-color: #121110;
+    padding: 60px 20px;
+}
+
+.karty-uslug {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.usluga {
+    background-color: #242220;
+    padding: 25px;
+    border-radius: 6px;
+    border-top: 3px solid #8c5a3c;
+}
+
+.usluga h3 {
+    margin-bottom: 10px;
+}
+
+.cena {
+    font-size: 22px;
+    font-weight: bold;
+    color: #8c5a3c;
+    margin-bottom: 10px;
 }
