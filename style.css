@@ -47,6 +47,7 @@ header {
     color: #8c5a3c;
 }
 
+
 .section_hero {
     background: linear-gradient(rgba(18, 17, 16, 0.75), rgba(18, 17, 16, 0.75)), url('images/barber.jpg') no-repeat center/cover;
     height: 600px;
@@ -56,4 +57,30 @@ header {
     align-items: center;
     text-align: center;
 
+}
+
+.section_hero h1 {
+    font-size: 42px;
+    color: #8c5a3c;
+    margin-bottom: 15px;
+}
+
+.section_hero p {
+    font-size: 18px;
+    margin-bottom: 25px;
+    max-width: 600px;
+}
+
+.rezerwacja {
+    background-color: #8c5a3c;
+    color: #ffffff;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: 0.4s;
+}
+
+.rezerwacja:hover {
+    background-color: #a66d49;
 }
