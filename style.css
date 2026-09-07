@@ -201,3 +201,31 @@ header {
 .przycisk-submit:hover {
     background-color: #a66d49;
 }
+
+footer {
+    background-color: #121110;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #3d3835;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .przycisk {
+        display: block;
+    }
+
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #121110;
+        padding: 20px;
+        text-align: center;
+        border-bottom: 2px solid #8c5a3c;
+    }
+
+}
