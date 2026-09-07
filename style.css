@@ -151,3 +151,53 @@ header {
     color: #8c5a3c;
     margin-bottom: 10px;
 }
+
+
+.section-kontakt {
+    max-width: 550px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+#formularz {
+    background-color: #242220;
+    padding: 30px;
+    border-radius: 6px;
+    border: 1px solid #3d3835;
+}
+
+.input-box {
+    margin-bottom: 18px;
+}
+
+.input-box label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.input-box input, .input-box select, .input-box textarea {
+    width: 100%;
+    padding: 10px;
+    background-color: #1a1918;
+    border: 1px solid #3d3835;
+    color: #f0e6df;
+    border-radius: 4px;
+}
+
+.przycisk-submit {
+    width: 100%;
+    padding: 12px;
+    background-color: #8c5a3c;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.4s;
+}
+
+.przycisk-submit:hover {
+    background-color: #a66d49;
+}
