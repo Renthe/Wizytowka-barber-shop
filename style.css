@@ -227,5 +227,29 @@ footer {
         text-align: center;
         border-bottom: 2px solid #8c5a3c;
     }
+    .nav-list.active {
+        display: flex;
+    }
 
+    .section_hero h1 {
+        font-size: 30px;
+    }
+
+    .section_hero p {
+        font-size: 16px;
+    }
+
+    .section-o-nas {
+        margin: 40px auto;
+    }
+
+    #formularz {
+        padding: 20px;
+    }
+
+}
+
+a:focus, button:focus, input:focus, select:focus, textarea:focus {
+    outline: 2px solid #8c5a3c;
+    outline-offset: 2px;
 }
