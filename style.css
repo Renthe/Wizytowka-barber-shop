@@ -202,6 +202,10 @@ header {
     background-color: #a66d49;
 }
 
+.przycisk {
+    display: none;
+}
+
 footer {
     background-color: #121110;
     text-align: center;

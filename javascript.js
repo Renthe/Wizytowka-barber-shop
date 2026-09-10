@@ -8,6 +8,7 @@ przycisk.addEventListener("click", function () {
 const formularz = document.getElementById("formularz");
 
 formularz.addEventListener("submit", function (event) {
+    event.preventDefault();
     
     alert("Dziękujemy! Rezerwacja została wysłana");
 });
