@@ -1,0 +1,79 @@
+<?php get_header(); ?>
+
+<main>
+    <section id="hero" class="section_hero">
+        <h1><?php bloginfo('name'); ?></h1>
+        <p><?php bloginfo('description'); ?></p>
+        <a href="#kontakt" class="rezerwacja">Zarezerwuj wizytę</a>
+    </section>
+
+    <section id="o-nas" class="section-o-nas">
+        <h2>O naszym salonie</h2>
+        <div class="opis-salonu">
+            <p>Jesteśmy nowoczesnym salonem fryzjerskim dla mężczyzn. Zajmujemy się profesjonalnym strzyżeniem włosów oraz pielęgnacją brody</p>
+            <p>Dbamy o dobrą atmosferę dobrą kawę czy herbate i precyzję każdego cięcia. Przyjdź i przekonaj się sam!!</p>
+            <img src="<?php echo get_template_directory_uri(); ?>/images/praca.jpg" alt="barber">
+        </div>
+    </section>
+
+    <section id="oferty-uslug" class="section-uslugi">
+        <h2>Cennik i Usługi</h2>
+        <div class="karty-uslug">
+            <div class="usluga">
+                <h3>Strzyżenie Męskie</h3>
+                <p class="cena">90 zł</p>
+                <p>Mycie głowy, konsultacja, strzyżenie włosów i stylizacja</p>
+            </div>
+
+            <div class="usluga">
+                <h3>Pielęgnacja Brody</h3>
+                <p class="cena">70 zł</p>
+                <p>Strzyżenie brody, konturowanie, gorący ręcznik i olejek.</p>
+            </div>
+
+            <div class="usluga">
+                <h3>Combo (Włosy + Broda)</h3>
+                <p class="cena">150 zł</p>
+                <p>Pełny pakiet strzyżenia włosów razem z brodą i pielęgnacją.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="kontakt" class="section-kontakt">
+        <h2>Formularz rezerwacji</h2>
+        <form id="formularz">
+            <div class="input-box">
+                <label for="imie">Imię i Nazwisko:</label>
+                <input type="text" id="imie" name="imie" placeholder="Wpisz imię i nazwisko" required>
+            </div>
+
+            <div class="input-box">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Wpisz e-mail" required>
+            </div>
+
+            <div class="input-box">
+                <label for="usluga">Wybierz usługę:</label>
+                <select id="usluga" name="usluga">
+                    <option value="strzyzenie">Strzyżenie męskie</option>
+                    <option value="broda">Pielęgnacja brody</option>
+                    <option value="combo">Combo</option>
+                </select>
+            </div>
+
+            <div class="input-box">
+                <label for="data">Wybierz datę wizyty:</label>
+                <input type="date" id="data" name="data" required>
+            </div>
+
+            <div class="input-box">
+                <label for="wiadomosc">Dodatkowe uwagi:</label>
+                <textarea id="wiadomosc" name="wiadomosc"></textarea>
+            </div>
+
+            <button type="submit" class="przycisk-submit">Wyślij rezerwację</button>
+        </form>
+    </section>
+</main>
+
+<?php get_footer(); ?>

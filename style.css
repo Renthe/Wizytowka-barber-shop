@@ -1,3 +1,8 @@
+/*
+Theme Name: Barber Marzeń
+Author: Patryk
+*/
+
 * {
     margin: 0;
     padding: 0;
@@ -47,7 +52,6 @@ header {
     color: #8c5a3c;
 }
 
-
 .section_hero {
     background: linear-gradient(rgba(18, 17, 16, 0.75), rgba(18, 17, 16, 0.75)), url('images/barber.jpg') no-repeat center/cover;
     height: 600px;
@@ -56,7 +60,6 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
-
 }
 
 .section_hero h1 {
@@ -84,6 +87,7 @@ header {
 .rezerwacja:hover {
     background-color: #a66d49;
 }
+
 .section-o-nas {
     max-width: 1100px;
     margin: 60px auto;
@@ -108,17 +112,6 @@ header {
 
 .opis-salonu p {
     margin-bottom: 15px;
-}
-
-.about-img {
-    flex: 1;
-    min-width: 280px;
-}
-
-.about-img img {
-    width: 100%;
-    border-radius: 6px;
-    border: 2px solid #8c5a3c;
 }
 
 .section-uslugi {
@@ -151,7 +144,6 @@ header {
     color: #8c5a3c;
     margin-bottom: 10px;
 }
-
 
 .section-kontakt {
     max-width: 550px;
@@ -231,6 +223,7 @@ footer {
         text-align: center;
         border-bottom: 2px solid #8c5a3c;
     }
+
     .nav-list.active {
         display: flex;
     }
@@ -250,7 +243,6 @@ footer {
     #formularz {
         padding: 20px;
     }
-
 }
 
 a:focus, button:focus, input:focus, select:focus, textarea:focus {
